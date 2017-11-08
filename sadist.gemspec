@@ -24,15 +24,15 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest', '~> 5.0'
-  
-  spec.add_dependency 'bundler-audit', '~> 0.5.0'
-  spec.add_dependency 'flog', '~> 4.6', '>= 4.6.1'
-  spec.add_dependency 'flay', '~> 2.9'
+
+  spec.add_dependency 'bundler-audit', '>= 0.5.0'
+  spec.add_dependency 'flog', '>= 4.6.1'
+  spec.add_dependency 'flay', '>= 2.9'
   # spec.add_dependency 'flay-haml', '~> 0.0.3' # removing until flay-haml supports haml 5
-  spec.add_dependency 'brakeman', '~> 3.6', '>= 3.6.2'
-  spec.add_dependency 'reek', '~> 4.7'
-  spec.add_dependency 'haml_lint', '~> 0.26.0'
-  spec.add_dependency 'scss_lint', '~> 0.53.0'
-  spec.add_dependency 'simplecov', '~> 0.14.1'
-  spec.add_dependency 'rubocop', '~> 0.49.1'
+  spec.add_dependency 'brakeman', '>= 3.6.2'
+  spec.add_dependency 'reek', '>= 4.7'
+  spec.add_dependency 'haml_lint', '>= 0.26.0'
+  spec.add_dependency 'scss_lint', '>= 0.53.0'
+  spec.add_dependency 'simplecov', '>= 0.14.1'
+  spec.add_dependency 'rubocop', '>= 0.49.1'
 end
